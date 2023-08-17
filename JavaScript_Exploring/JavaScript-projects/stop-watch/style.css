@@ -1,0 +1,12 @@
+.header{
+    color: blue;
+    font-size:30px;
+    text-align: center;
+}
+.btn-design{
+    padding: 15px;
+    background-color:aqua;
+    /* border: none; */
+    border-radius: 15px;
+    
+}
