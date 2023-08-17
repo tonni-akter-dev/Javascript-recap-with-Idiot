@@ -1,0 +1,26 @@
+1. what is javascript?
+--> JS Is a lightweight ,cross platform ,single threaded and interpreted compiled programming language.
+2. Variable Scope in Javascript.
+-->  global variables are defined outside of the function and they can be accessible from anywhere
+
+3. let-->  let is a blocked scope.can not redeclared. but we can use same variable name one is block another is globally./ does not support hoisting.
+
+let x=77;
+{
+    let x=23;
+    console.log(x);
+}   
+console.log(x);
+
+4.what is hoisting?
+-->The behavior of moving the declarations on top of the script is known as hoisting.
+
+x=12;
+    console.log(x);
+    let x;
+5. JavaScript Const....
+--> cannot reassign/ block scope / cannot be hoisted.
+
+6.
+
+
