@@ -134,7 +134,7 @@ console.log(bike2.getDetails()); */
 
 //=============//
 // Abstraction example
-function person(fname, lname) {
+/* function person(fname, lname) {
   let firstname = fname;
   let lastname = lname;
 
@@ -147,7 +147,7 @@ function person(fname, lname) {
     return `First name is: ${firstname}, Last
 			name is: ${lastname}`;
   };
-}
+} */
 /* let person1 = new person("Mukul", "Latiyan");
 console.log(person1.firstname); //undefined
 console.log(person1.getDetails_noaccess); //undefined
@@ -177,3 +177,15 @@ let st1 = new student("Tonni", 276);
 console.log(st1.toString()); */
 //=============//
 // polumorphism: Polymorphism means the same function with different signatures is called many times. we can write multiple methods with same name with different parameters
+
+//JavaScript JSON Objects
+
+let myOrder, i;
+myOrder = {
+  name_of_product: "Earbuds",
+  cost: "799",
+  warranty: "1 year",
+};
+// Accessing object using [] notation
+i = myOrder["name_of_product"];
+console.log(i);
