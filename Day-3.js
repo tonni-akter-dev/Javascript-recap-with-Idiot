@@ -24,7 +24,7 @@ for (const a of arr) {
     console.log(a)
 } */
 //4. while loop
-let i = 0;
+// let i = 0;
 /* while (i < 6) {
   console.log(i);
 }
@@ -37,7 +37,7 @@ do {
 } while (i<6); */
 //6. forEach loop
 // -->A forEach loop is a method on arrays that executes a function for each element in the array.
-const arr = [1, 2, 3];
+// const arr = [1, 2, 3];
 // arr.forEach((val) => console.log(val));
 
 //7 map
@@ -45,9 +45,30 @@ const arr = [1, 2, 3];
 
 // arr.map((a) => console.log(a));
 //TRY CATCH
-try {
-    dadalert("Welcome Fellow Geek!");
+/* try {
+    alert("Welcome Fellow Geek!");
 }
 catch (err) {
     console.log(err);
+}
+
+ */
+
+//debugging
+/* const x = 20;
+const y = 5;
+const z = x * y;
+debugger;
+document.getElementById("test").innerHTML = z; */
+/* The try statement lets you test a block of code to check for errors.
+The catch statement lets you handle the error if any are present.
+The throw statement lets you make your own errors.
+The finally statement lets you execute code after try and catch.  
+The finally block runs regardless of the result of the try-catch block. */
+
+
+try {
+  throw new Error("Yeahh.. umm sorry")
+} catch (err) {
+  console.log(err)
 }
